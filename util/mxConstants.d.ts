@@ -348,13 +348,13 @@ declare class mxConstants {
    * Defines the dashed state to be used for the vertex selection
    * border. Default is true.
    */
-  static VERTEX_SELECTION_DASHED: true;
+  static VERTEX_SELECTION_DASHED: boolean;
 
   /**
    * Defines the dashed state to be used for the edge selection
    * border. Default is true.
    */
-  static EDGE_SELECTION_DASHED: true;
+  static EDGE_SELECTION_DASHED: boolean;
 
   /**
    * Defines the color to be used for the guidelines in mxGraphHandler.
@@ -406,7 +406,7 @@ declare class mxConstants {
    * Defines the color to be used for the handle stroke color. Use 'none' for
    * no color. Default is black.
    */
-  static HANDLE_STROKECOLOR: 'black';
+  static HANDLE_STROKECOLOR: string;
 
   /**
    * Defines the color to be used for the label handle fill color. Use 'none'
